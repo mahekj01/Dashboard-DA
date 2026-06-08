@@ -176,29 +176,6 @@ Provides project-level visibility into:
 
 ---
 
-## Dashboard Preview
-
-### Main Dashboard
-
-Add dashboard screenshots here.
-
-```text
-/dashboard-images/main-dashboard.png
-```
-
-### Risk Analysis Dashboard
-
-```text
-/dashboard-images/risk-analysis.png
-```
-
-### Productivity Dashboard
-
-```text
-/dashboard-images/productivity-analysis.png
-```
-
----
 
 ## Conclusion
 
