@@ -1,91 +1,207 @@
-# Dashboard-DA
-AI project monitoring dashboard showing project status, team productivity, and client reports in real time.
-#AI Project Monitoring Dashboard
-#1. Problem Statement
-  Use Case : AI project monitoring dashboard showing project status, team productivity, and client reports in real time 
+# AI Project Monitoring Dashboard
 
-#2. Objectives
-  The primary objectives of this project are:
-  To monitor project performance through interactive dashboards.
-  To evaluate workforce productivity using employee activity metrics.
-  To analyze client satisfaction through ratings and feedback.
-  To identify project risks using AI-generated risk indicators.
-  To provide management with actionable insights for decision-making.
+## Overview
 
-#3. Dataset Description
-  The dashboard utilizes a synthetic enterprise dataset containing over 100,000 records across multiple business entities. (Generated through ChatGPT)
-  Projects Table
-    Contains information related to project budget, status, timeline, and risk levels.
-  Employees Table
-    Stores employee details such as department, designation, and experience.
-  Tasks Table
-    Contains task assignments, priorities, completion percentages, and work effort information.
-  Productivity Table
-    Tracks employee productivity, hours worked, and tasks completed.
-  Client Feedback Table
-    Stores client ratings and satisfaction scores.
-  AI Predictions Table
-    Contains AI-generated project risk metrics including Delay Risk, Budget Risk, and Resource Risk.
+AI Project Monitoring Dashboard is a Power BI solution designed to monitor project performance, workforce productivity, client satisfaction, and AI-generated risk indicators in real time. The dashboard consolidates multiple business functions into a single analytical platform, enabling organizations to make informed, data-driven decisions.
 
-#4. Data Modeling
-  Relationships were established between tables to enable integrated analysis.
-  Key Relationships
-  Projects → Tasks
-  Projects → Client Feedback
-  Projects → AI Predictions
-  Employees → Tasks
-  Employees → Productivity
-  This relational model enables cross-functional analysis across projects, employees, and risk indicators.
+---
 
-#5. Dashboard Components
-  KPI Cards
-    The dashboard provides the following key performance indicators:
-      Total Projects
-      Total Employees
-      Total Hours Worked
-      Average Productivity Score
-      Client Rating
-      Tasks Completed
+## Problem Statement
 
-  Interactive Filters
-    Users can filter dashboard data based on:
-      Department
-      Project Duration (Date)
-      Risk Level
-      Project Name
+Organizations managing multiple AI projects often face challenges in tracking project progress, monitoring employee productivity, assessing client satisfaction, and identifying potential risks. This project addresses these challenges by providing a centralized dashboard for real-time project monitoring and performance analysis.
 
-  Visualizations
-    Project Status Distribution
-      Displays the proportion of projects across various status categories.
-    Delay Risk Gauge
-      Shows the overall project risk level based on AI-generated predictions.
-    Top Projects by Budget
-      Highlights projects with the highest budget allocations.
-    Employee Productivity Analysis
-      Analyzes employee performance using productivity scores and experience levels.
-    Risk Analysis Table
-      Provides project-level visibility into Delay Risk, Budget Risk, and Resource Risk.
-    
-#6. Key Insights
-  The organization manages 250 projects across multiple departments.
-  More than 1,000 employees contribute to project execution.
-  Productivity levels remain consistent across departments.
-  AI-generated risk indicators help identify projects requiring attention.
-  Client ratings indicate generally positive stakeholder satisfaction.
-  High-budget projects can be monitored for efficient resource utilization.
+---
 
-#7. Benefits of the Dashboard
-  Centralized project monitoring.
-  Improved workforce performance tracking.
-  Enhanced risk management.
-  Better client satisfaction analysis.
-  Faster data-driven decision-making.
-  Interactive and user-friendly reporting.
+## Objectives
+
+* Monitor project performance through interactive dashboards.
+* Evaluate workforce productivity using employee activity metrics.
+* Analyze client satisfaction through ratings and feedback.
+* Identify project risks using AI-generated risk indicators.
+* Provide management with actionable insights for decision-making.
+
+---
+
+## Dataset Description
+
+The dashboard utilizes a synthetic enterprise dataset containing over 100,000 records generated for analytical purposes.
+
+### Projects Table
+
+Contains information related to:
+
+* Project Budget
+* Project Status
+* Timeline
+* Risk Levels
+
+### Employees Table
+
+Stores employee information including:
+
+* Department
+* Designation
+* Experience
+
+### Tasks Table
+
+Contains:
+
+* Task Assignments
+* Priority Levels
+* Completion Percentages
+* Work Effort Metrics
+
+### Productivity Table
+
+Tracks:
+
+* Employee Productivity Scores
+* Hours Worked
+* Tasks Completed
+
+### Client Feedback Table
+
+Stores:
+
+* Client Ratings
+* Satisfaction Scores
+
+### AI Predictions Table
+
+Contains AI-generated project risk metrics:
+
+* Delay Risk
+* Budget Risk
+* Resource Risk
+
+---
+
+## Data Modeling
+
+Relationships were established between tables to enable integrated analysis.
+
+### Key Relationships
+
+* Projects → Tasks
+* Projects → Client Feedback
+* Projects → AI Predictions
+* Employees → Tasks
+* Employees → Productivity
+
+This relational model enables cross-functional analysis across projects, employees, productivity, client feedback, and risk indicators.
+
+---
+
+## Dashboard Components
+
+### KPI Cards
+
+The dashboard provides the following key performance indicators:
+
+* Total Projects
+* Total Employees
+* Total Hours Worked
+* Average Productivity Score
+* Average Client Rating
+* Tasks Completed
+
+### Interactive Filters
+
+Users can filter dashboard data based on:
+
+* Department
+* Project Duration
+* Risk Level
+* Project Name
+
+### Visualizations
+
+#### Project Status Distribution
+
+Displays the proportion of projects across various project status categories.
+
+#### Delay Risk Gauge
+
+Shows the overall project risk level based on AI-generated predictions.
+
+#### Top Projects by Budget
+
+Highlights projects with the highest budget allocations.
+
+#### Employee Productivity Analysis
+
+Analyzes employee performance using productivity scores and experience levels.
+
+#### Risk Analysis Table
+
+Provides project-level visibility into:
+
+* Delay Risk
+* Budget Risk
+* Resource Risk
+
+---
+
+## Key Insights
+
+* The organization manages 250 projects across multiple departments.
+* More than 1,000 employees contribute to project execution.
+* Productivity levels remain relatively consistent across departments.
+* AI-generated risk indicators help identify projects requiring immediate attention.
+* Client ratings indicate generally positive stakeholder satisfaction.
+* High-budget projects can be monitored for efficient resource utilization.
+
+---
+
+## Benefits
+
+* Centralized project monitoring.
+* Improved workforce performance tracking.
+* Enhanced risk management.
+* Better client satisfaction analysis.
+* Faster data-driven decision-making.
+* Interactive and user-friendly reporting.
+
+---
+
+## Tools and Technologies
+
+* Power BI
+* DAX
+* Data Modeling
+* Business Intelligence
+* Data Visualization
+* Synthetic Data Generation
+
+---
+
+## Dashboard Preview
+
+### Main Dashboard
+
+Add dashboard screenshots here.
+
+```text
+/dashboard-images/main-dashboard.png
+```
+
+### Risk Analysis Dashboard
+
+```text
+/dashboard-images/risk-analysis.png
+```
+
+### Productivity Dashboard
+
+```text
+/dashboard-images/productivity-analysis.png
+```
+
+---
 
 ## Conclusion
-   The AI Project Monitoring Dashboard successfully integrates project, employee, client, and risk-related information into a single analytical platform. Through interactive visualizations and KPI tracking, the dashboard enables stakeholders to monitor organizational performance efficiently and make informed decisions. The project demonstrates the potential of Business Intelligence tools in enhancing project governance, workforce productivity, and strategic planning.
-  
 
+The AI Project Monitoring Dashboard successfully integrates project, employee, client, and risk-related information into a single analytical platform. Through interactive visualizations, KPI tracking, and AI-generated risk insights, the dashboard enables stakeholders to monitor organizational performance efficiently and make informed business decisions.
 
-
-
+This project demonstrates the effectiveness of Business Intelligence tools in improving project governance, workforce productivity, risk management, and strategic planning.
