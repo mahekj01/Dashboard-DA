@@ -168,11 +168,10 @@ Provides project-level visibility into:
 ## Tools and Technologies
 
 * Power BI
-* DAX
 * Data Modeling
-* Business Intelligence
 * Data Visualization
-* Synthetic Data Generation
+
+<img width="1433" height="766" alt="Screenshot 2026-06-08 175244" src="https://github.com/user-attachments/assets/48be2a24-1532-4b6d-9f5a-f2ba4fcd94c0" />
 
 ---
 
